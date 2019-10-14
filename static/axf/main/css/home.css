@@ -36,9 +36,9 @@ footer .home dd {
     height: 100%;
 }
 
-.topMenu {
-    padding-bottom: 0.26rem;
-}
+/*.topMenu {*/
+/*    padding-bottom: 0.26rem;*/
+/*}*/
 
 .topMenu nav {
     margin: 0.35rem 0 0.26rem;
@@ -62,15 +62,17 @@ footer .home dd {
 
 #swiperMenu {
     width: 100%;
+    height: 2rem;
 }
 
-/*
-#swiperMenu li{
-  width:3.333333rem
-}*/
-#swiperMenu li img {
+
+#swiperMenu li img{
     width: 100%;
+    height: 2rem;
 }
+/*#swiperMenu li img {*/
+/*    width: 100%;*/
+/*}*/
 
 
 .CVS {

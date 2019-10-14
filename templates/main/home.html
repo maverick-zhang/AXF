@@ -25,6 +25,8 @@
             <div class="swiper-pagination"></div>
         </div>
 
+
+        {# 顶部菜单 #}
         <div class="topMenu">
             <nav>
                 <ul>
@@ -36,9 +38,20 @@
                     {% endfor %}
                 </ul>
             </nav>
-
-
         </div>
+
+
+        {#  中间轮播  #}
+        <div class="swiper-container" id="swiperMenu">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide"><img src="{% static 'img/home/slide1.jpg' %}" alt=""></li>
+                <li class="swiper-slide"><img src="{% static 'img/home/slide2.jpg' %}" alt=""></li>
+                <li class="swiper-slide"><img src="{% static 'img/home/slide3.jpg' %}" alt=""></li>
+                <li class="swiper-slide"><img src="{% static 'img/home/slide4.jpg' %}" alt=""></li>
+            </ul>
+        </div>
+
+
     </div>
 
 {% endblock %}
