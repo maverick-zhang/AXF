@@ -1,6 +1,8 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
+from App.models import MainWheel, MainNav
+
 
 def index(request):
     return HttpResponse('index')
@@ -8,7 +10,16 @@ def index(request):
 
 def home(request):
 
-    return render(request, 'main/home.html')
+    main_wheels = MainWheel.objects.all()
+
+    main_navs = MainNav.objects.all()
+
+    data ={
+        "main_wheels": main_wheels,
+        "main_navs": main_navs,
+    }
+
+    return render(request, 'main/home.html', context=data)
 
 
 def market(request):
