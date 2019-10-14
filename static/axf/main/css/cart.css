@@ -1,0 +1,5 @@
+
+footer .cart span {
+    background: url(/static/img/cart_selected.png) no-repeat;
+    background-size: 0.513889rem;
+}
