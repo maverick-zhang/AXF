@@ -1,7 +1,7 @@
 .idea
 settings.py
 db.sqlite3
-mysite/__pycache__/
+AXF/__pycache__/
 
 
 

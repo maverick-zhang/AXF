@@ -1,0 +1,9 @@
+Django==1.11
+django-redis==4.10.0
+django-redis-cache==2.1.0
+django-tinymce==2.8.0
+Pillow==6.2.0
+PyMySQL==0.9.3
+pytz==2019.3
+redis==3.3.10
+six==1.12.0
